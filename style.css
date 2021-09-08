@@ -1,4 +1,13 @@
-.panda-bg-primary{
-    background-color: #fceae8;
-    
+body{
+    font-family: 'Poppins', sans-serif;
 }
+
+.panda-bg-primary{
+    background-color: #feeae9;
+}
+.panda-bg-primary-2{
+    background-color: #ffd4d2;
+}
+
+
+

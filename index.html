@@ -14,6 +14,10 @@
     <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <!-- Custom Style -->
     <link rel="stylesheet" href="style.css">
+    <!-- Font-Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -22,14 +26,9 @@
         <!-- Navbar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light mb-5">
             <div class="container ">
-
               <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" width="" height="">
               </a>
-
-              
-
-
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -50,17 +49,13 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#Subscribe">Subscribe</a>
                   </li>
-                  
-                  
-                  
                 </ul>
-                
               </div>
             </div>
           </nav>
+          
         <!-- Image Slider Carousel -->  
         <section id="Home" class="container pt-5">
-          
         <div id="carouselExampleIndicators" class=" p-2 border rounded-3 panda-bg-primary  carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -68,6 +63,7 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
+            <!-- 1st Item -->
             <div class="carousel-item active">
               <div class="row p-5 d-flex align-items-center ">
                 <!-- Carousel-Text -->
@@ -82,8 +78,8 @@
                 <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
               </div>
               </div>
-              
             </div>
+            <!-- 2nd Item -->
             <div class="carousel-item">
               <div class="row p-5 d-flex align-items-center ">
                 <!-- Carousel-Text -->
@@ -99,6 +95,7 @@
               </div>
               </div>
             </div>
+            <!-- 3rd Item -->
             <div class="carousel-item">
               <div class="row p-5 d-flex align-items-center ">
                 <!-- Carousel-Text -->
@@ -114,7 +111,9 @@
               </div>
               </div>
             </div>
+
           </div>
+          <!-- Button -->
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -123,6 +122,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
+
         </div>
         </section>
         
@@ -130,40 +130,43 @@
           
     </header>
 
-    <!--Header Finished  -->
+    <!--Main-Start  -->
 
-    
     <main>
-      <!-- Categories -->
+                        <!-- Categories -->
        <section id="Categories" class=" my-5 pt-5 container overflow-hidden">
-        
           <div class="row g-4">
+
             <div class=" col-10 mx-auto col-lg-4 col-md-4">
              <div class="p-3 d-flex justify-content-between align-items-center border rounded-3 btn-warning bg-gradient">
                <h1 class="text-white">Watch</h1>
                <img height="100px" src="images/categories/watch.png" alt="">
               </div>
             </div>
+
             <div class=" col-10 mx-auto col-lg-4 col-md-4">
               <div class="p-3 d-flex justify-content-between align-items-center border rounded-3 btn-danger bg-gradient">
                 <h1>Bag</h1>
                 <img height="100px" src="images/categories/bag.png" alt="">
               </div>
             </div>
+
             <div class=" col-10 mx-auto col-lg-4 col-md-4">
               <div class="p-3 d-flex justify-content-between align-items-center border rounded-3 btn-primary bg-gradient">
                 <h1>Shoes</h1>
                 <img height="100px" src="images/categories/shoes.png" alt="">
               </div>
             </div>
+
           </div>
-        
-       </section>               
-      <!-- Shoes  -->
+       </section>      
+
+                        <!-- Shoes  -->
        
       <section id="Shoes" class=" my-5 container overflow-hidden">
         <h1 class="mb-5">Shoes</h1>
-        <div class="row row-cols-1  row-cols-md-3 g-4">
+        <d   iv class="row row-cols-1  row-cols-md-3 g-4">
+
           <div class="col  shadow">
             <div class="card border-0 h-100">
               <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
@@ -171,11 +174,11 @@
                 <h5 class="card-title">Supply 350</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
                 <h5>$120</h5>
-                <a class="btn btn-danger bg-gradient" style="color: aliceblue;" href="#" role="button">Buy Now > ></a>
+                <button class="btn btn-danger bg-gradient" style="color: aliceblue;" href="#" role="button">Buy Now > ></button>
               </div>
-              
             </div>
           </div>
+
           <div class="col shadow">
             <div class="card border-0 h-100">
               <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
@@ -183,11 +186,11 @@
                 <h5 class="card-title">Supply 350</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
                 <h5>$120</h5>
-                <a class="btn btn-danger bg-gradient" style="color: aliceblue;" href="#" role="button">Buy Now > ></a>
-              </div>
-              
+                <button class="btn btn-danger bg-gradient" style="color: aliceblue;" href="#" role="button">Buy Now > ></button>
+              </div> 
             </div>
           </div>
+
           <div class="col shadow ">
             <div class="card border-0 h-100">
               <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
@@ -195,19 +198,20 @@
                 <h5 class="card-title">Supply 350</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
                 <h5>$120</h5>
-                <a class="btn btn-danger bg-gradient" style="color: aliceblue;" href="#" role="button">Buy Now > ></a>
+                <button class="btn btn-danger bg-gradient" style="color: aliceblue;" href="#" role="button">Buy Now > ></button>
               </div>
-              
             </div>
           </div>
-          
-          
+
         </div>
       </section>
-      <!-- Backpack  -->
+
+                         <!-- Backpack  -->
+
       <section id="Backpack" class=" my-5 container overflow-hidden">
         <h1 class="mb-5">Backpack</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
+
           <div class="col shadow ">
             <div class="card border-0 h-100">
               <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
@@ -216,11 +220,11 @@
                 </h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
                 <h5>$120</h5>
-                <a class="btn btn-danger bg-gradient" style="color: aliceblue;" href="#" role="button">Buy Now > ></a>
+                <button class="btn btn-danger bg-gradient" style="color: aliceblue;" href="#" role="button">Buy Now > ></button>
               </div>
-              
             </div>
           </div>
+
           <div class="col shadow ">
             <div class="card border-0 h-100">
               <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
@@ -228,11 +232,11 @@
                 <h5 class="card-title">Supply 350</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
                 <h5>$120</h5>
-                <a class="btn btn-danger bg-gradient" style="color: aliceblue;" href="#" role="button">Buy Now > ></a>
+                <button class="btn btn-danger bg-gradient" style="color: aliceblue;" href="#" role="button">Buy Now > ></button>
               </div>
-              
             </div>
           </div>
+
           <div class="col shadow ">
             <div class="card border-0 h-100">
               <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
@@ -240,45 +244,40 @@
                 <h5 class="card-title">Supply 350</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
                 <h5>$120</h5>
-                <a class="btn btn-danger bg-gradient" style="color: aliceblue;" href="#" role="button">Buy Now > ></a>
+                <button class="btn btn-danger bg-gradient" style="color: aliceblue;" href="#" role="button">Buy Now > ></button>
               </div>
-              
             </div>
           </div>
-          
-          
+
         </div>
+      </section><br>
 
-      </section>
-      <br>
+                             <!-- Subscribe -->
 
-      <!-- Subscribe -->
-      <section id="Subscribe" style=" height: 300px;" class=" my-5 container panda-bg-primary rounded-3 d-flex justify-content-center align-items-center">
-        <div class="d-flex flex-column align-items-center">
-          <h1>LET'S STAY IN TOUCH</h1>
-          <h5 class="" >Get updates on sales, specials and more</h5>
-          <input class="mb-2 form-control" type="email" placeholder="Your Email Here" name="" id="">
+      <section id="Subscribe-container" style=" height: 300px;" class=" my-5 container panda-bg-primary-2 rounded-3 d-flex justify-content-center align-items-center">
+        <div class="d-flex flex-column align-items-center" id="subscribe">
+          <h2>LET'S STAY IN TOUCH</h2>
+          <h6 class="text-secondary" >Get updates on sales, specials and more</h6>
+          <input class="mb-2 form-control" type="email" placeholder="Your Email Here" name="" id="email-field">
           <button class="btn btn-danger bg-gradient mb-3" style="color: aliceblue;">
             Subscribe
-          </button>
-          
+          </button> 
         </div>
-        
-        
       </section>
-
     </main>
 
-    <!-- Footer Start -->
+                            <!-- Footer Start -->
+
     <footer>
       <section class=" mt-5 container text-center">
         <p>©2025. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>  
       </section>
     </footer>
 
-    <!-- Bootstrap Script -->
-<script src="js/bootstrap.bundle.min.js"></script>   
+                          <!-- Bootstrap Script -->
 
+<script src="js/bootstrap.bundle.min.js"></script>   
+<script src="js/script.js"></script>
 </body>
 
 </html>
